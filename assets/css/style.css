@@ -1,0 +1,15 @@
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+li > div {
+  display: flex;
+  flex-direction: column;
+  flex: 0.8;
+}
+
+#delbtn {
+  flex: 0.2;
+  flex-direction: row;
+}
